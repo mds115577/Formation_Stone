@@ -1,0 +1,388 @@
+.body{
+    margin: 0px;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@300;500&display=swap');
+
+.imglog{
+    padding-left: 10%;
+
+}
+.head1{
+ padding-right: 14%;
+
+
+}
+
+.nav1{
+    padding: .5%;
+}
+
+
+.linav{
+    text-transform: uppercase;
+    font-family: 'FFDINWebLight', sans-serif;
+    font-size: 17px;
+}
+
+.start{
+    width: 100%;
+    height: auto;
+    background-image: url(Assets/formation-home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.start1{
+    padding-top: 10%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'FFDINWebConBold', sans-serif;
+    letter-spacing: .03em;
+    height: auto;
+    
+}
+@media screen and (min-width: 601px){
+.start1 h1{
+    font-size: 4.9rem;
+    font-weight: 500;
+  
+}
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px
+@media screen and (max-width: 600px) {
+    .start1 h1 {
+      font-size: 30px;
+    }
+  } */
+
+
+  .arrow{
+            font-size: 1.2rem;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'FFDINWebConBold', sans-serif ;
+        
+
+  }
+
+
+
+  .who{
+      background-color: #4c4845;
+      width: auto;
+      height: auto;
+        font-family: 'FFDINWebConBold', sans-serif ;
+  }
+
+.who1{
+    
+    height: auto;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+  
+    box-sizing: border-box; 
+    color: white;
+    font-family: 'FFDINWebConBold', sans-serif ;
+}
+
+.who2{
+
+        color: #c9aa5d;
+        font-size:  2.4rem;
+        line-height: 1.2; 
+        text-align: center;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    transform: scale(.9,1.4);
+}
+
+.who3{
+    color: #F1F1F0;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: sans-serif slim ;
+    justify-content: center;
+    line-height: 1.6;
+    word-spacing: .1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+
+.link2{
+    transform: scale(1,1.2);
+
+}
+
+
+.what{
+    height: auto;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+  
+    box-sizing: border-box; 
+    
+    font-family: 'FFDINWebConBold', sans-serif ;
+}
+
+.what2{
+
+    color: #4c4845;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: sans-serif slim ;
+    justify-content: center;
+    line-height: 1.6;
+    word-spacing: .1em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#what3{
+
+    padding: 9%;
+    width: auto;
+}
+
+.what4{
+    padding: .3%;
+}
+
+
+.ofbtn{
+    width: 240px;
+    height: 60px;
+    background-color: #c9aa5d;
+    color: white;
+    border: 1px solid #c9aa5d;
+    text-align: center;
+    justify-content:center ;
+    text-transform: uppercase;
+    transition: .8s;
+
+}
+
+.ofbtn:hover{
+    transform: scale(1);
+    background-color: white;
+    color: #c9aa5d;
+}
+
+.slab{
+    width: 100%;
+    height: 70vh;
+    background-image: url(Assets/formationslab-location-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    color: white;
+
+
+
+}
+.slab1{
+    padding-top: 20%;
+    transform: scale(.9,1.4);
+}
+
+
+#uniq{
+     
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #4c4845;
+    padding-top: 5%;
+    font-size: larger;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.9;
+    
+}
+
+#invent{
+
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #4c4845;
+    padding-top: 4%;
+    font-size: larger;
+    padding-left: 5%;
+    padding-right: 5%; 
+    line-height: 1.9;
+}
+
+
+#history{
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #4c4845;
+    padding-top: 5.3%;
+    font-size: larger;
+    padding-left: 5%;
+    padding-right: 5%; 
+    line-height: 1.9;
+}
+
+#ulink{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+
+#ulink a{
+    color: #c9aa5d;
+    font-size: 1.4em;
+}
+
+
+.offer{
+    background-color: #4c4845;
+    height: auto;
+    width: auto;
+}
+
+.offer2{
+    justify-content: center;
+    color: white;
+    font-family:'Raleway', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 19px;
+}
+
+.offer3{
+    font-size:  2.4rem;
+    line-height: 1.2;
+    font-weight: 400;
+    transform: scale(1,1.3);
+    height: auto;
+}
+
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+
+.serve{
+    background-color: #ddd;
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #4c4845;
+    height: auto;
+    width: auto;
+
+}
+
+.serve1{
+    font-family:'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #4c4845; 
+    line-height: 1.6;
+    font-size: 1.2em;
+
+}
+
+.form1{
+    font-family: 'Raleway', sans-serif;;
+    color: #4c4845;
+    font-size: larger;
+}
+
+.form1 h4{
+    color: #c9aa5d;
+    font-size: 1.7em;
+}
+
+#FormControlText1{
+
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+}
+
+#FormControlInput1{
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+}
+
+#subject{
+
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+}
+
+#Message{
+    border-bottom: 2px solid black;
+    border-radius: 1px;
+}
+
+.ofbtn1{
+    background-color: #c9aa5d;
+    color: white;
+    border: 1px solid #c9aa5d;
+    text-align: center;
+    justify-content:center ;
+    text-transform: uppercase;
+    transition: .8s;
+    width: 20vw;
+    height: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+
+}
+
+.ofbtn1:hover{
+    transform: scale(1);
+    background-color: white;
+    color: #c9aa5d;
+}
+
+#final{
+    box-sizing: border-box;
+   
+}
+
+#finspan{
+
+    font-size: x-large;
+}
+
+#finfoot{
+    margin-left: -2%;
+}
